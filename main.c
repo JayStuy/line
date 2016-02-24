@@ -48,7 +48,7 @@ int main() {
   //horizontal, vertical line
   draw_line( 0, YRES / 2, XRES - 1, YRES / 2, s, c);
   draw_line( XRES / 2, 0, XRES / 2, YRES - 1, s, c);
-  
+  */
   display(s);
   save_extension(s, "lines.png");
 }  
